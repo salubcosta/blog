@@ -1,10 +1,10 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: 'Trebuchet MS';
 }
 body{
 	background-color: #FAFAFA;
+	font-family: Verdana;
 }
 a{
 	text-decoration: none;
@@ -15,16 +15,34 @@ a{
 	max-width: 40px;
 	margin: 0 auto 30px;
 }
+.space{
+	background-color: #ccc;
+	height: 128px;	
+	clear: both;
+	border-radius: 5px;
+}
 /*########### TOPO ########### */
 .topo{
+	margin-top: 0px;
+	margin-bottom: 0px;
 	width: 100%;
-	height: 150px;
+	height: auto;
+	background-color: #eff0f2;
+	padding-bottom: 20px;
 }
 
 .topo a{
 	text-decoration: none;
-	color: #0080FF;	
+	color: #4160a3;/* 0080FF;	*/
 	/*color: #0e83d1;*/
+	transition: color 2s ease-out;
+	 	-webkit-transition: color 2s ease-out;
+  		-moz-transition: color 2s ease-out;
+  		-o-transition: color 2s ease-out;
+}
+.topo a:hover{
+	color: #aaaaaa;
+	
 }
 .topoint{
 	width: 100%;
@@ -60,6 +78,9 @@ a{
 	background-color: #303030;
 	font-size: 12px;
 }
+.menu:nth-child(3){
+	background-color: #545454;
+}
 .menuint{
 	width: 100%;
 	height: 60px;
@@ -80,7 +101,8 @@ a{
 	color: #bbb;
 }
 ul li>:first-child {
-  margin-right: 30px;
+	padding: 5px 20px 0px 20px;
+	text-align: center;
 }
 .menuint a{
 	text-decoration: none;
@@ -107,7 +129,12 @@ ul li>:first-child {
 	font-weight: bold;
 	margin-left: 5px;
 	padding: 5px;
-	color: #0080FF;
+	color: #ccc;
+	background-color: #7f7f7f;
+	border: 0px;
+}
+.menuright input[type=submit]:hover{
+	color: #fff;	
 }
 /*########### FIM MENU ########### */
 
@@ -117,33 +144,39 @@ ul li>:first-child {
 	max-width: 1024px;
 	margin: auto;
 	margin-top: 10px;
-	border-top: 1px solid #e6e6e6;
+	/*border-top: 1px solid #e6e6e6;*/
 	padding-top: 30px;
 	color: #3D3D3D;
+}
+.container a{
+	color: #4160a3;
+}
+.container a:hover{
+	color: #364f87;
 }
 /*########### FIM CONTAINER ########### */
 
 /*########### LEFTSIDE ########### */
 .leftside{
-	width: 67%;
 	border: 1px solid #e6e6e6;
-	min-height: 400px;
-	float: left;
+	height: auto;
 	border-radius: 5px;
 	padding: 10px;
+	text-align: justify;
+	margin-bottom: 20px;
+	clear: both;
 }
 
 /*########### FIM LEFTSIDE ########### */
 
 /*########### RIGHTSIDE ########### */
 .rightside{
-	width: 25%;
 	border: 1px solid #e6e6e6;
 	min-height: 380px;
-	float: right;
 	border-radius: 5px;
 	padding: 10px;
 	text-align: center;
+	margin-bottom: 20px;
 }
 .rightside p{
 	margin-top: 5px;
@@ -178,3 +211,81 @@ ul li>:first-child {
 }
 
 /*########### FIM RIGHTSIDE ########### */
+
+/*########### LEFT|RIGHT ########### */
+/*########### LEFT|RIGHT ########### */
+.left{
+	width: 69%;
+	float: left;
+}
+.right{
+	width: 29%;
+	float: right;
+}
+/*########### FIM LEFT|RIGHT ########### */
+/*########### FIM LEFT|RIGHT ########### */
+
+
+/*########### POSTTITLE ########### */
+.posttitle{
+	border-bottom: 1px solid #e6e6e6;
+	margin-bottom: 10px;
+}
+/*########### FIM POSTTITLE ########### */
+
+
+.postimg{
+	margin-bottom: 10px;
+	text-align: center;
+}
+.postimg img{
+	max-width: 100%;
+	max-height: 380px;
+	border-radius: 5px;
+}
+.postconteudo{
+	font-size: 12px;
+}
+.postbotoes{
+	display: inline-block;
+}
+.postbotoes ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.postbotoes li{
+	float: right;
+	line-height: 60px;
+	margin: 2px;
+	font-size: 12px;
+}
+
+.rodape{
+	clear: both;
+	min-height: 250px;
+	background-image: linear-gradient(#fff, #ccc);
+	font-size: 14px;
+}
+.rodape ul{
+	list-style: none;
+}
+.rodape ul li{
+	display: inline-block;
+	line-height: 60px;
+	margin: 10px;
+}
+.rodapeint{
+	padding-top: 5%;
+	height: 150px;
+	max-width: 1024px;
+	margin: auto;
+	text-align: center;
+}
+footer{	
+	margin-top: 20px;
+	margin: auto;
+	max-width: 1024px;
+	padding-bottom: 20px;
+	text-align: center;
+}
