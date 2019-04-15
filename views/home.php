@@ -16,6 +16,20 @@
 		<p>Como configurar Apache, PHP e PHPMyadmin no linux Mint</p>
 		<p>Como configurar Apache, PHP e PHPMyadmin no linux Mint</p>
 		<p>Como configurar Apache, PHP e PHPMyadmin no linux Mint</p>
+		<p>Como configurar Apache, PHP e PHPMyadmin no linux Mint</p>
+		<a href="#">Mais lidos</a>
+	</div>
+	<div class="rightside">
+		<div class="spacey"></div>
+	</div>
+	<div class="rightside">
+		<h4>Últimas Postagens</h4>
+		<p>Como configurar Apache, PHP e PHPMyadmin no linux Mint</p>
+		<p>Como configurar Apache, PHP e PHPMyadmin no linux Mint</p>
+		<p>Como configurar Apache, PHP e PHPMyadmin no linux Mint</p>
+		<p>Como configurar Apache, PHP e PHPMyadmin no linux Mint</p>
+		<p>Como configurar Apache, PHP e PHPMyadmin no linux Mint</p>
+		<a href="#">Mais lidos</a>
 	</div>
 </div>
 <div class="left">
