@@ -32,7 +32,7 @@
 					<p>Resumos, traduções de artigos, questões entre outros.</p>
 				</div>
 			</div>
-			<div class="space"></div>
+			<div class="spacex"></div>
 		</div>
 	</div>
 	<!--##################### MENU #####################-->
