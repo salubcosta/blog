@@ -8,7 +8,6 @@ class core{
 
 	public function processarURL(){
 		$params = array();
-
 		if(isset($_GET['url'])){
 
 			$url = filter_var(strtolower(rtrim($_GET['url'])), FILTER_SANITIZE_URL);
@@ -31,7 +30,7 @@ class core{
 			echo 'Controlador não encontrado.'; //Invocar 404.PHP
 			exit;
 		}
-
+		
 		$_controller = new $controller;
 
 		if(!$this->verificarAction($_controller, $action)){
