@@ -1,6 +1,9 @@
 <div class="row">
 	<div class="col-md-8">
 		<div class="p mt-3">
+			<div class="card mb-3">
+				<img src="<?php echo URL;?>assets/images/semimg.png" style="width: auto; max-height: 350px;">
+			</div>
 			<h4 class="text-dark">Configurar apache, php e phpmyadmin at Linux MINT</h4>
 			<p class="text-muted font-italic mt-3">16 de Abril de 2019 publicado por <a href="#">Salumão</a></p>
 			<div class="text-justify mt-3">
