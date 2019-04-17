@@ -58,10 +58,12 @@
       <div class="row">
         <div class="col">
           <div class="media">
-            <img src="<?php echo URL; ?>assets/images/s.png" class="align-self-center mr-0">
-            <div class="media-body">
-              <h1 class="mt-1">alumão</h1>
-            </div>
+            <a href="<?php echo URL.'home'; ?>" class="navbar-brand d-flex align-items-center text-secondary">
+              <img src="<?php echo URL; ?>assets/images/s.png" class="align-self-center mr-0">
+              <div class="media-body">
+                <h1 class="mt-0 mb-0">alumão</h1>
+              </div>
+            </a>
           </div>
         </div>
         <div class="col">
