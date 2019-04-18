@@ -84,22 +84,23 @@
   <footer class="pt-5 pb-5" >
     <div class="container">
       <div class="row pt-5 border-top">
-        <div class="col-12 col-md">
-          <small class="d-block mb-3 text-muted"><a href="<?php echo URL.'home'; ?>">Salumao.com.br</a> &copy; 2019</small>
+        <div class="col-12 col-md text-center mb-5">
+          <small class="d-block mb-3 text-muted">&copy; 2019 - Salumao.com.br</small>
+          <small class="font-italic">"Talk is cheap. Show me the code" -<br />Linus Torvalds</small>
         </div>
         <div class="col-6 col-md">
           <h5>Links</h5>
           <ul class="list-unstyled text-small">
             <li><a href="#" class="text-muted">Últimas postagens</a></li>
             <li><a href="#" class="text-muted">Mais lidos</a></li>
-            <li><a href="#" class="text-muted">Contato</a></li>
+            <li><a href="<?php echo URL.'contato'; ?>" class="text-muted">Contato</a></li>
           </ul>
         </div>
         <div class="col-6 col-md">
           <h5>Sobre</h5>
           <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="https://GitHub.com/salubcosta" target="_blank">O blog</a></li>
-            <li><a class="text-muted" href="https://Twitter.com/salubcosta" target="_blank">Autor</a></li>
+            <li><a class="text-muted" href="<?php echo URL.'sobre'; ?>">O blog</a></li>
+            <li><a class="text-muted" href="<?php echo URL.'autor'; ?>">Autor</a></li>
           </ul>
         </div>
          <div class="col-6 col-md">
