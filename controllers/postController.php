@@ -6,10 +6,10 @@ class postController extends controller{
 		$this->carregarTemplate('post',[]);
 	}
 
-	public function ler($id = ''){
+	public function ler($id =''){
+		$dados['id'] = $id;
 		if(!empty($id) and is_numeric($id)){
-			echo 'Carregando postagem... Código: '.$id;
-			exit;
+			$this->carregarTemplate('post',$dados);
 		}else{
 			echo 'Artigo não encontrado'; //invocar página não encontrada
 			exit;
