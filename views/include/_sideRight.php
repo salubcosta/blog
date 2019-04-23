@@ -1,8 +1,3 @@
-<!-- <div class="p-3">
-  <h4 class="text-muted">Sobre o projeto</h4>
-  <p class="mb-0 text-justify mb-3">Este blog irá abordar assuntos relacionados à área da tecnologia da informação, programação, banco de dados e outros tópicos como resumos de artigos, posts com questões, mapas mentais, um verdadeiro acervo pessoal para estudo.</p>
-  <a href="#" class="btn btn-secondary">Saiba mais sobre o projeto</a>
-</div> -->
 <div class="p-3">
   <h4 class="text-muted">Em Destaques</h4>
     <ol class="list-unstyled">
