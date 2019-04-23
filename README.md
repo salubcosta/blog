@@ -1,5 +1,5 @@
-# blog
-
+# Blog
+===
 Projeto: Blog pessoal que versará sobre assuntos relacionados à área de TI
 =============
 
