@@ -1,7 +1,7 @@
 # Blog
-===
-Projeto: Blog pessoal que versará sobre assuntos relacionados à área de TI
-=============
+
+# Projeto: Blog pessoal que versará sobre assuntos relacionados à área de TI
+=
 
 ## Ferramentas
 Servidor WEB:
