@@ -1,7 +1,6 @@
 # blog
 
 Projeto: Blog pessoal que versará sobre assuntos relacionados à área de TI
-
 =============
 
 ## Ferramentas
