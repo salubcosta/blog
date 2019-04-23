@@ -10,7 +10,7 @@ Servidor WEB:
 
 • Apache/2.4.34
 
-• Servidor de banco de dados:
+Servidor de banco de dados:  
 
 • Tipo de servidor: MariaDB
 
