@@ -5,7 +5,7 @@
 				<img src="<?php echo URL;?>assets/images/semimg.png" style="width: auto; max-height: 350px;">
 			</div>
 			<h4 class="text-dark">Configurar apache, php e phpmyadmin at Linux MINT</h4>
-			<p class="text-muted font-italic mt-3">16 de Abril de 2019 publicado por <a href="#">Salumão</a> # <a href="http://discus.com/bar.html#disqus_thread">Link</a></p>
+			<p class="text-muted font-italic mt-3">16 de Abril de 2019 publicado por <a href="<?php echo URL.'autor'; ?>">Salumão</a> # <a href="http://discus.com/bar.html#disqus_thread">Link</a></p>
 			<div class="text-justify mt-3">
 				<p>Este artigo irá versar sobre como instalar e configurar um servidor apache no linux mint, precisamente falando, o linux mint mate cinammon 19.1. Também vamos config...</p>
 				<?php for ($i=0; $i < 3; $i++):?>
