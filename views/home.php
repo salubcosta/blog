@@ -23,7 +23,7 @@
 					<a href="<?php echo URL.'post/ler/1'; ?>" style="text-decoration: none;">
 						<h5 class="text-secondary">Configurar apache, php e phpmyadmin at <?php if($i==0):?>Linux MINT: PHP e phpmyadmin at Linux MINT<?php endif;?> </h5>
 					</a>
-					<p class="text-muted font-italic mb-0">16 de Abril de 2019 publicado por <a href="#">Salumão</a></p>
+					<p class="text-muted font-italic mb-0">16 de Abril de 2019 publicado por <a href="<?php echo URL.'autor'; ?>">Salumão</a></p>
 					<p class="mt-2"><a href="<?php echo URL.'post/ler/1';?>" class="font-italic">Leia mais!</a></p>
 				</div>
 			</div>
