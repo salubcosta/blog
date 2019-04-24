@@ -7,7 +7,7 @@
       <li><a href="<?php echo URL.'post/ler/1'; ?>">COBIT 5 - Introdução</a></li>
       <li><a href="<?php echo URL.'post/ler/1'; ?>">Python na prática</a></li>
     </ol>
-    <a href="#" class="btn btn-secondary">Veja mais lidos</a>
+    <a href="<?php echo URL.'destaque'; ?>" class="btn btn-secondary">Veja mais lidos</a>
 </div>
 <div class="p-3">
   <h4 class="text-muted">Novidades</h4>
@@ -18,18 +18,18 @@
       <li><a href="<?php echo URL.'post/ler/1'; ?>">COBIT 5 - Introdução</a></li>
       <li><a href="<?php echo URL.'post/ler/1'; ?>">Configurar servidor WEB permitir .HTACCESS</a></li>
     </ol>
-    <a href="#" class="btn btn-secondary">Últimas atualizações</a>
+    <a href="<?php echo URL.'novidades'; ?>" class="btn btn-secondary">Últimas atualizações</a>
 </div>
 <div class="p-3">
   <h4 class="text-muted">Categorias</h4>
   <ol class="list-unstyled">
-    <li><a href="#">Banco de Dados <span class="badge badge-primary">4</span> </a></li>
-    <li><a href="#">Programação <span class="badge badge-primary">3</span></a></li>
-    <li><a href="#">Redes de Computadores <span class="badge badge-primary">8</span></a></li>
-    <li><a href="#">Segurança da Informação <span class="badge badge-primary">2</span></a></li>
-    <li><a href="#">Engenharia de Software <span class="badge badge-primary">12</span></a></li>
-    <li><a href="#">Gestão de TI <span class="badge badge-primary">5</span></a></li>
-    <li><a href="#">Computação Forense <span class="badge badge-primary">5</span></a></li>
+    <li><a href="<?php echo URL.'categorias/load/1'; ?>">Banco de Dados <span class="badge badge-primary">4</span> </a></li>
+    <li><a href="<?php echo URL.'categorias/load/2'; ?>">Programação <span class="badge badge-primary">3</span></a></li>
+    <li><a href="<?php echo URL.'categorias/load/3'; ?>">Redes de Computadores <span class="badge badge-primary">8</span></a></li>
+    <li><a href="<?php echo URL.'categorias/load/4'; ?>">Segurança da Informação <span class="badge badge-primary">2</span></a></li>
+    <li><a href="<?php echo URL.'categorias/load/5'; ?>">Engenharia de Software <span class="badge badge-primary">12</span></a></li>
+    <li><a href="<?php echo URL.'categorias/load/6'; ?>">Gestão de TI <span class="badge badge-primary">5</span></a></li>
+    <li><a href="<?php echo URL.'categorias/load/7'; ?>">Computação Forense <span class="badge badge-primary">5</span></a></li>
   </ol>
 </div>
 <div class="p-3">
