@@ -86,8 +86,8 @@
         <div class="col-6 col-md">
           <h5>Links</h5>
           <ul class="list-unstyled text-small">
-            <li><a href="#" class="text-muted">Últimas postagens</a></li>
-            <li><a href="#" class="text-muted">Mais lidos</a></li>
+            <li><a href="<?php echo URL.'novidades'; ?>" class="text-muted">Últimas postagens</a></li>
+            <li><a href="<?php echo URL.'destaque'; ?>" class="text-muted">Mais lidos</a></li>
             <li><a href="<?php echo URL.'contato'; ?>" class="text-muted">Contato</a></li>
           </ul>
         </div>
